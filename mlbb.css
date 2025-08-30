@@ -50,12 +50,16 @@
 }
 .right{
     width: 30%;
-    border: 1px solid black;
-    height: 60vh;
+    height: 65vh;
     margin-top: 10px;
     margin-right: 75px;
     background-color: rgba(84, 82, 82, 0.838);
     color: white;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    
 
     
 }
@@ -78,4 +82,16 @@
 }
 .item-card>button{
     width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.853);
+    color: white;
+    
 }
+.item-card{
+    p{
+        font-size: 14px;
+    }
+}
+
